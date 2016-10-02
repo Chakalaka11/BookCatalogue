@@ -1,29 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="BookCatalogueApp">
 	<head>
-		<title>Book Stack</title>
+		<title>Book Catalogue</title>
 		<meta charset="UTF-8">
 		<!-- Styles -->
 		<link rel="stylesheet" href="css/bootstrap.css" type="text/css">
 		<link rel="stylesheet" href="css/site.css" type="text/css">
 		<!-- Scripts -->
 		<script type="text/javascript" src="js/angular.js"></script>
-		<!--<script type="text/javascript" src="js/bootstrap.js"></script>-->
 		<script type="text/javascript" src="js/site.js"></script>
 	</head>
-	<body>
+	<body ng-controller="MainController">
 		<div class="container">
-		<div class="main-title">Book Catalogue</div>
+			<div class="main-title">{{title}}</div>
+			
 			<div class="row">
+				<div class="col-md-4 col-md-offset-2">
+					<div>
+						<input type="text" ng-model="pattern" placeholder="Search string...">
+					</div>
+				</div>
 				<div class="col-md-4">
-					<div class="prise"></div>
-					<div class="book">
-						<div></div>
-						<div class="name"></div>
-						<div class="author"></div>
+					<div></div>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-md-3" ng-repeat="book in books | filter:{Name:pattern}">
+					<div class="book">				
+						<div class="price">{{book.Price|currency}}</div>
+						<div class="image">
+							<div>
+								<img src="img/book.jpg">
+							</div>
+						</div>
+						<div class="name">{{book.Name}}</div>
+						<div class="author">{{book.Author}}</div>
 					</div>
 				</div>
 			</div>
+
 		</div>
+
 	</body>
+	<!-- Angular Controllers -->
+	<script src="js/Controllers/MainController.js"></script>
 </html>

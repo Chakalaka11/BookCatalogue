@@ -15,14 +15,18 @@ namespace BookStack.Controllers
     {
         
         [HttpGet]
-        public object Index()
+        public JsonResult<List<book>> Index()
         {
             return Json(BookManager.GetAllBooks());
         }
         [HttpPost]
         public JsonResult<string> AddBook(string name, string author, double price)
         {
-            book new_book = new book() { Name = name, Author = author, Price = Convert.ToDecimal(price) };
+            book new_book = new book() {
+                Name = name,
+                Author = author,
+                Price = Convert.ToDecimal(price) 
+                };
             return Json(BookManager.AddBook(new_book));
         }
     }

@@ -1,11 +1,57 @@
 @import 'https://fonts.googleapis.com/css?family=Alex+Brush';
-
-.col-md-4{
-	background:#f0f;
-	height: 101px;
+@import 'https://fonts.googleapis.com/css?family=PT+Sans:400i&subset=cyrillic,cyrillic-ext';
+@import 'https://fonts.googleapis.com/css?family=PT+Sans&subset=cyrillic,cyrillic-ext';
+.col-md-3{
+	padding: 15px;
 }
-
+.col-md-4>div{
+	height: 20px;
+	background: #aad;
+}
 .main-title{
+	text-align: center;
 	font-size: 40px;
 	font-family: 'Alex Brush', cursive;
+}
+.price
+{
+	position: absolute;
+	background: #DD3750;
+	color: #fff;
+	padding: 5px;
+	font-size: 18px;
+	top: 0px;
+	right: 0px;
+}
+.image{
+	height: 300px;
+	width: 100%;
+	display: table;
+}
+.image>div
+{
+	max-height: 100%;
+	max-width: 100%;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+img{
+	max-height: 100%;
+	max-width: 100%;
+}
+.book{
+	position: relative;
+	border: 2px solid #DD5F61;
+	padding: 10px;
+}
+.name{
+	font-size: 19px;
+	font-family: 'PT Sans';
+	font-style: italic;
+}
+.author{
+	font-size: 12px;
+	font-family: 'PT Sans', sans-serif;
+
 }
