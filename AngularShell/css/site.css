@@ -1,0 +1,11 @@
+@import 'https://fonts.googleapis.com/css?family=Alex+Brush';
+
+.col-md-4{
+	background:#f0f;
+	height: 101px;
+}
+
+.main-title{
+	font-size: 40px;
+	font-family: 'Alex Brush', cursive;
+}

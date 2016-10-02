@@ -29,3 +29,45 @@ C:\Users\The Machine\Documents\Visual Studio 2015\Projects\BookStack\BookStack\b
 C:\Users\The Machine\Documents\Visual Studio 2015\Projects\BookStack\BookStack\obj\Debug\BookStack.csprojResolveAssemblyReference.cache
 C:\Users\The Machine\Documents\Visual Studio 2015\Projects\BookStack\BookStack\obj\Debug\BookStack.dll
 C:\Users\The Machine\Documents\Visual Studio 2015\Projects\BookStack\BookStack\obj\Debug\BookStack.pdb
+E:\BookAssigmen\BookStack\BookStack\obj\Debug\BookStack.csprojResolveAssemblyReference.cache
+E:\BookAssigmen\BookStack\BookStack\obj\Debug\BookStack.dll
+E:\BookAssigmen\BookStack\BookStack\obj\Debug\BookStack.pdb
+E:\BookAssigmen\BookStack\BookStack\bin\roslyn\csc.exe
+E:\BookAssigmen\BookStack\BookStack\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\BookAssigmen\BookStack\BookStack\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\BookAssigmen\BookStack\BookStack\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\BookAssigmen\BookStack\BookStack\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\BookAssigmen\BookStack\BookStack\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\BookAssigmen\BookStack\BookStack\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\BookAssigmen\BookStack\BookStack\bin\roslyn\System.Collections.Immutable.dll
+E:\BookAssigmen\BookStack\BookStack\bin\roslyn\System.Reflection.Metadata.dll
+E:\BookAssigmen\BookStack\BookStack\bin\roslyn\vbc.exe
+E:\BookAssigmen\BookStack\BookStack\bin\roslyn\VBCSCompiler.exe
+E:\BookAssigmen\BookStack\BookStack\bin\roslyn\VBCSCompiler.exe.config
+E:\BookAssigmen\BookStack\BookStack\bin\BookStack.dll.config
+E:\BookAssigmen\BookStack\BookStack\bin\BookStack.dll
+E:\BookAssigmen\BookStack\BookStack\bin\BookStack.pdb
+E:\BookAssigmen\BookStack\BookStack\bin\EntityFramework.dll
+E:\BookAssigmen\BookStack\BookStack\bin\EntityFramework.SqlServer.dll
+E:\BookAssigmen\BookStack\BookStack\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\BookAssigmen\BookStack\BookStack\bin\MySql.Data.dll
+E:\BookAssigmen\BookStack\BookStack\bin\MySql.Data.Entity.EF6.dll
+E:\BookAssigmen\BookStack\BookStack\bin\Newtonsoft.Json.dll
+E:\BookAssigmen\BookStack\BookStack\bin\System.Net.Http.Formatting.dll
+E:\BookAssigmen\BookStack\BookStack\bin\System.Web.Http.dll
+E:\BookAssigmen\BookStack\BookStack\bin\System.Web.Http.WebHost.dll
+E:\BookAssigmen\BookStack\BookStack\bin\EntityFramework.xml
+E:\BookAssigmen\BookStack\BookStack\bin\EntityFramework.SqlServer.xml
+E:\BookAssigmen\BookStack\BookStack\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\BookAssigmen\BookStack\BookStack\bin\Newtonsoft.Json.xml
+E:\BookAssigmen\BookStack\BookStack\bin\System.Net.Http.Formatting.xml
+E:\BookAssigmen\BookStack\BookStack\bin\System.Web.Http.xml
+E:\BookAssigmen\BookStack\BookStack\bin\System.Web.Http.WebHost.xml
+E:\BookAssigmen\BookStack\BookStack\bin\ru\EntityFramework.resources.dll
+E:\BookAssigmen\BookStack\BookStack\bin\ru\System.Net.Http.Formatting.resources.dll
+E:\BookAssigmen\BookStack\BookStack\bin\ru\System.Web.Http.resources.dll
+E:\BookAssigmen\BookStack\BookStack\bin\ru\System.Web.Http.WebHost.resources.dll
+E:\BookAssigmen\BookStack\BookStack\bin\System.Web.Cors.dll
+E:\BookAssigmen\BookStack\BookStack\bin\System.Web.Http.Cors.dll
+E:\BookAssigmen\BookStack\BookStack\bin\System.Web.Http.Cors.xml
+E:\BookAssigmen\BookStack\BookStack\bin\ru\EntityFramework.SqlServer.resources.dll
