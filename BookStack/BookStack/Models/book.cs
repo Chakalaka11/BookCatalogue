@@ -18,6 +18,5 @@ namespace BookStack.Models
         public string Name { get; set; }
         public Nullable<decimal> Price { get; set; }
         public string Author { get; set; }
-        public byte[] Image { get; set; }
     }
 }

@@ -10,6 +10,7 @@ app.controller('MainController', function ($scope, $http) {
     $scope.click = function (event) {
         document.getElementsByClassName("outer")[0].style.display = "block";
     }
+
     $scope.Match = function (pattern) {
        return function( item ) {
         if(pattern!=null){
@@ -28,24 +29,48 @@ app.controller('MainController', function ($scope, $http) {
         }
       };
     }
+
      $scope.addbook = function () {
+
+        var Name =  document.getElementById("name").value;
+        var Author =  document.getElementById("author").value;
+        var Price = document.getElementById("price").value;
         $http.post((server+actionUrl[1]), { 
-            name: document.getElementById("name").value,
-            author : document.getElementById("author").value,
-            price : document.getElementById("price").value
+
+            name: Name,
+            author :Author,
+            price : Price
+
         }).success(function (data, status, headers, config) {
-           alert(data);
+
+           document.getElementsByClassName("outer")[0].style.display = "none";
+           document.getElementById("name").value = "";
+           document.getElementById("author").value = "";
+           document.getElementById("price").value = "";
+
+           switch(data) {
+            case "Success":
+              alert();
+              $scope.books.push({Author:Author,Name:Name,Price:Price});
+              break;
+            default:
+              console.log(data);
+           }
+
         }).error(function (data, status, headers, config) {
             console.log(data);
             console.log(status);
         });
     }
 
-    $http.get( (server+actionUrl[0]) ).success(function (data) {          
+    $http.get( (server+actionUrl[0]) ).success(function (data) {       
+
         $scope.books = data;
+        console.log($scope.books);
         for (var i = 0; i < $scope.books.length; i++) {
             $scope.books[i].Price = $scope.books[i].Price.toFixed(2);
         }
+
     }).error(function (data, status, headers, config) {        
         console.log(data);
         console.log(status);

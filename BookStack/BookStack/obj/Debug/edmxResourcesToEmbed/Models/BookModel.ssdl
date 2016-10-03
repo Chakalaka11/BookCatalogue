@@ -8,7 +8,6 @@
     <Property Name="Name" Type="varchar" MaxLength="50" />
     <Property Name="Price" Type="decimal" Precision="12" Scale="2" />
     <Property Name="Author" Type="varchar" MaxLength="255" />
-    <Property Name="Image" Type="blob" />
   </EntityType>
   <EntityContainer Name="Хранилище bookstackdbModelContainer">
     <EntitySet Name="book" EntityType="Self.book" Schema="bookstackdb" store:Type="Tables" />

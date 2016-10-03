@@ -8,7 +8,6 @@
     <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
     <Property Name="Price" Type="Decimal" />
     <Property Name="Author" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
-    <Property Name="Image" Type="Binary" MaxLength="Max" FixedLength="false" />
   </EntityType>
   <EntityContainer Name="bookstackdbEntities" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="book" EntityType="Self.book" />
