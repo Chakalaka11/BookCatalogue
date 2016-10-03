@@ -4,8 +4,8 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
-using BookStack.Models;
 using System.Web.Http.Results;
+using BookStack.Models;
 using System.Web.Http.Cors;
 
 namespace BookStack.Controllers
@@ -14,20 +14,34 @@ namespace BookStack.Controllers
     public class HomeController : ApiController
     {
         
-        [HttpGet]
-        public JsonResult<List<book>> Index()
+        [HttpPost]
+        public JsonResult<string> AddBook(dynamic param)
+        {
+            string a = param.name, b = param.author;
+            decimal c = Convert.ToDecimal(param.price);
+            return Json(BookManager.AddBook(a,b,c));
+        }
+
+        public object getsmth(string id)
+        {
+            return Json(new { method = "getsmth" , param = id });
+        }
+
+        public object getall()
         {
             return Json(BookManager.GetAllBooks());
         }
+
+        //[HttpPost]
+        //public object postR([FromBody]string par)
+        //{
+        //    return Json(new { status = "ok post",id = par });
+        //}
+
         [HttpPost]
-        public JsonResult<string> AddBook(string name, string author, double price)
+        public object postR(dynamic id)
         {
-            book new_book = new book() {
-                Name = name,
-                Author = author,
-                Price = Convert.ToDecimal(price) 
-                };
-            return Json(BookManager.AddBook(new_book));
+            return Json(new { status = "ok post", par = id.a });
         }
     }
 }

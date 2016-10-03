@@ -35,13 +35,13 @@ namespace BookStack.Models
         /// <param name="price">It's price</param>
         /// <param name="image">Image of the book (can be null)</param>
         /// <returns></returns>
-        public static string AddBook(string name, string author, double price, byte[] image = null)
+        public static string AddBook(string name, string author, decimal price, byte[] image = null)
         {
             book Book = new book()
             {
                 Name = name,
                 Author = author,
-                Price = Convert.ToDecimal(price),
+                Price = price,
                 ID = db.book.Count() + 1,
                 Image = image
             };
@@ -66,6 +66,6 @@ namespace BookStack.Models
             List<book> all_books = new List<book>();
             all_books = db.book.Select(x => x).ToList();
             return all_books;
-        }   
+        }
     }
 }

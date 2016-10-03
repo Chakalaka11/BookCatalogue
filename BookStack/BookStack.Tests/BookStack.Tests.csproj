@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4CE68D97-C470-4763-9596-055B24E7110B}</ProjectGuid>
+    <ProjectGuid>{7354E4D2-42C4-4D0C-8D27-2140D7EAC020}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>BookStack.Tests</RootNamespace>
@@ -53,12 +53,9 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BookStack\BookStack.csproj">
-      <Project>{7DAFC59D-64D3-4645-BBA6-295EB411928D}</Project>
+      <Project>{D0D8EF83-50BA-4052-A690-40C0FA0EB044}</Project>
       <Name>BookStack</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="app.config" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
