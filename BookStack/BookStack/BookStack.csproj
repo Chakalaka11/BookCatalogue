@@ -156,6 +156,8 @@
     <Content Include="Models\Bookmodel.edmx.diagram">
       <DependentUpon>Bookmodel.edmx</DependentUpon>
     </Content>
+    <None Include="Properties\PublishProfiles\bookcatalogue - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\bookcatalogue - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

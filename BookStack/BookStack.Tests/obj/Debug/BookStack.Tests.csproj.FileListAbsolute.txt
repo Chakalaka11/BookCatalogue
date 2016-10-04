@@ -36,3 +36,9 @@ E:\BookAssigmen\BookStack\BookStack.Tests\bin\Debug\ru\System.Web.Http.WebHost.r
 E:\BookAssigmen\BookStack\BookStack.Tests\obj\Debug\BookStack.Tests.csprojResolveAssemblyReference.cache
 E:\BookAssigmen\BookStack\BookStack.Tests\obj\Debug\BookStack.Tests.dll
 E:\BookAssigmen\BookStack\BookStack.Tests\obj\Debug\BookStack.Tests.pdb
+E:\BookAssigmen\BookStack\BookStack.Tests\bin\Debug\BookStack.Tests.dll.config
+E:\BookAssigmen\BookStack\BookStack.Tests\bin\Debug\EntityFramework.SqlServer.dll
+E:\BookAssigmen\BookStack\BookStack.Tests\bin\Debug\MySql.Data.dll
+E:\BookAssigmen\BookStack\BookStack.Tests\bin\Debug\MySql.Data.Entity.EF6.dll
+E:\BookAssigmen\BookStack\BookStack.Tests\bin\Debug\EntityFramework.SqlServer.xml
+E:\BookAssigmen\BookStack\BookStack.Tests\bin\Debug\ru\EntityFramework.SqlServer.resources.dll

@@ -39,3 +39,4 @@ E:\BookAssigmen\BookStack\BookStack\bin\EntityFramework.xml
 E:\BookAssigmen\BookStack\BookStack\bin\EntityFramework.SqlServer.xml
 E:\BookAssigmen\BookStack\BookStack\bin\System.Web.Http.Cors.xml
 E:\BookAssigmen\BookStack\BookStack\bin\ru\EntityFramework.resources.dll
+E:\BookAssigmen\BookStack\BookStack\bin\ru\EntityFramework.SqlServer.resources.dll

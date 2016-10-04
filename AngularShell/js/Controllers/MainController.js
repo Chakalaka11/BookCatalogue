@@ -1,5 +1,5 @@
 
-var server = "http://localhost:54146/";
+var server = "http://bookcatalogue.azurewebsites.net/";
 var actionUrl = ["home/getall/","home/addbook/"];
 
 
@@ -50,8 +50,8 @@ app.controller('MainController', function ($scope, $http) {
 
            switch(data) {
             case "Success":
-              alert();
               $scope.books.push({Author:Author,Name:Name,Price:Price});
+              console.log($scope.books);
               break;
             default:
               console.log(data);

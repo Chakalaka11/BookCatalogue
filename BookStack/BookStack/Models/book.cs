@@ -18,5 +18,14 @@ namespace BookStack.Models
         public string Name { get; set; }
         public Nullable<decimal> Price { get; set; }
         public string Author { get; set; }
+        public override bool Equals(object obj)
+        {
+            if (obj is book)
+            {
+                book equaled = (book)obj;
+                return (equaled.Author == this.Author)&& (equaled.ID == this.ID)&& (equaled.Name == this.Name);
+            }
+            return false;
+        }
     }
 }
