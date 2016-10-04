@@ -24,5 +24,29 @@ namespace BookStack.Controllers
         {
             return Json(BookManager.GetAllBooks());
         }
+        [HttpGet]
+        public object index()
+        {
+            return Json(new {
+                Head = "WebApi app for Book Catalogue ",
+                Body = "This is small documentation of aviable methods in this API",
+                Methods = new {
+                    GetAll = new
+                    {
+                        Description = "Method , thats return all books in database.",
+                        ULR = "/home/getall",
+                        Params = "none",
+                        HTTPMethod = "GET"
+                    },
+                    AddBook = new
+                    {
+                        Description = "Method , thats create new book in database. Return \"success\" in case of ended operation or log of internal server error",
+                        URL = " /home/addbook",
+                        Params = "{name,author,price}",
+                        HTTPMethod = "POST"
+                    }
+                }
+            });
+        }
     }
 }
