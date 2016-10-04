@@ -23,7 +23,7 @@ namespace BookStack.Models
             if (obj is book)
             {
                 book equaled = (book)obj;
-                return (equaled.Author == this.Author)&& (equaled.ID == this.ID)&& (equaled.Name == this.Name);
+                return (equaled.Author == this.Author)&& (equaled.Price == this.Price) && (equaled.Name == this.Name);
             }
             return false;
         }
