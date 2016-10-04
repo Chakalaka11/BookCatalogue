@@ -1,6 +1,6 @@
 #gitignore files
 #Visual Studio files
-.vs
-packages
+.vs/
+BookStack/*
 obj
 PublishProfiles
